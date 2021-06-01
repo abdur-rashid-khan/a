@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="vendors/css/bootstrap.min.css">
+    <link rel="stylesheet" href="font wasame/css/all.min.css">
+    <link rel="stylesheet" href="vendors/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendors/css/owl.theme.default.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- personal file -->
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/responsive.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="allManuItem">
+                    <div class="manu">
+                        <div class="logo">
+                            <a style="color: rgb(252, 252, 252); font-weight: bold;" href="#">Rashid khan</a>
+                        </div>
+                        <div class="allmanuitem">
+                            <div class="manuItem">
+                                <ul>
+                                    <li>
+                                        <a href="#home">HOME</a>
+                                    </li>
+                                    <li>
+                                        <a href="#blog"> BLOG</a>
+                                    </li>
+                                    <li>
+                                        <a href="#price">CATEGORY</a>
+                                    </li>
+                                    <li>
+                                        <a href="#contact">CONTACT</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mobileManu">
+                        <span onclick="openManu()">&#9776;</span>
+                        <div id="myNav" class="overlay">
+                            <a href="javascript:void(0)" onclick="closeManu()" class="closebtn">&times;</a>
+                            <div class="overlay-content">
+                                <a onclick="closeManu()" href="#home">HOME</a>
+                                <a onclick="closeManu()" href="#blog"> BLOG</a>
+                                <a onclick="closeManu()" href="#price">CATEGORY</a>
+                                <a onclick="closeManu()" href="#contact">CONTACT</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="home" class="py-5">
+        <div class="container">
+            <div class="row" id="allSectionContent"data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom">
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="sectionText">
+                        <a href="#" class="btn btn-info" id="fastBtn">Hellow I'm</a>
+                        <h1>Rashid khan.</h1>
+                        <h2 id="typingNow"></h2>
+                        <p><span><i class="fas fa-envelope"></i></span>aprashidkhan0@gmail.com</p>
+                        <p><span><i class="fas fa-mobile-alt"></i></span>+999999999</p>
+                    </div>
+                    <div class="sectionIcon">
+                        <ul>
+                            <li><a href="#"><span><i class="fab fa-facebook"></i></span></a></li>
+                            <li><a href="#"><span><i class="fab fa-instagram"></i></span></a></li>
+                            <li><a href="#"><span><i class="fab fa-linkedin-in"></i></span></a></li>
+                            <li><a href="#"><span><i class="fab fa-twitter"></i></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="sectionImg">
+                        <img src="img/83865425.jfif" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="js--services-section py-5" id='about'>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-6" data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">
+                    <div class="aboutSection">
+                        <div class="aboutIdiaImg">
+                            <img class="img-fluid" src="img/seo-home1.png" alt="seo-home1">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6" data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">
+                    <div class="aboutText">
+                        <h1>About Me </h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore unde, vero aliquid consequatur voluptates rerum neque deserunt, architecto omnis, in quisquam rem quaerat dolores iure officia blanditiis repellendus! Nam est praesentium,
+                            voluptatum quos dolor reprehenderit aperiam maxime iste esse sapiente, quibusdam impedit illum vel, nostrum deleniti obcaecati natus blanditiis minima.
+                        </p>
+                    </div>
+                    <div class="sameButton">
+                        <ul class="mt-5">
+                            <li>
+                                <a href="#" class="btn-outline-secondary">Html</a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-outline-secondary">css</a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-outline-secondary">Javascript</a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-outline-secondary">JQuery</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="blog" class="py-5">
+        <div class="container">
+            <div class="bolgHeader text-center" data-aos="fade-right">
+                <h2>What do you
+                    <hr>
+                </h2>
+            </div>
+            <div class="row py-5">
+                <div class="col-sm-4 col-md-4 col-lg-4" data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">
+                    <div class="boloContent">
+                        <div class="icon">
+                            <span style="color: #971212;"><i class="fas fa-code"></i></span>
+                            <h2>web Desing</h2>
+                        </div>
+                        <div class="bolgText ">
+                            <p class="">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam sequi maxime corrupti molestias voluptatum labore, dolorum velit laboriosam totam ut! Lorem ipsum dolor sit amet.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4" data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">
+                    <div class="boloContent">
+                        <div class="icon">
+                            <span style="color: #16ee21;"><i class="far fa-edit"></i></span>
+                            <h2>UI Desing</h2>
+                        </div>
+                        <div class="bolgText">
+                            <p class="">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam sequi maxime corrupti molestias voluptatum labore, dolorum velit laboriosam totam ut! Lorem ipsum dolor sit amet.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4" data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">
+                    <div class="boloContent">
+                        <div class="icon">
+                            <span style="color: #ee1645;"><i class="fab fa-connectdevelop"></i></span>
+                            <h2>Web Development</h2>
+                        </div>
+                        <div class="bolgText">
+                            <p class="">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam sequi maxime corrupti molestias voluptatum labore, dolorum velit laboriosam totam ut! Lorem ipsum dolor sit amet.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row ">
+                <div class="col-sm-4 col-md-4 col-lg-4" data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">
+                    <div class="boloContent">
+                        <div class="icon">
+                            <span style="color: #971212;"><i class="fas fa-code"></i></span>
+                            <h2>web Desing</h2>
+                        </div>
+                        <div class="bolgText">
+                            <p class="">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam sequi maxime corrupti molestias voluptatum labore, dolorum velit laboriosam totam ut! Lorem ipsum dolor sit amet.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4" data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">
+                    <div class="boloContent">
+                        <div class="icon">
+                            <span style="color: #16ee21;"><i class="far fa-edit"></i></span>
+                            <h2>UI Desing</h2>
+                        </div>
+                        <div class="bolgText">
+                            <p class="">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam sequi maxime corrupti molestias voluptatum labore, dolorum velit laboriosam totam ut! Lorem ipsum dolor sit amet.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4" data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">
+                    <div class="boloContent">
+                        <div class="icon">
+                            <span style="color: #ee165e;"><i class="fab fa-connectdevelop"></i></span>
+                            <h2>Web Development</h2>
+                        </div>
+                        <div class="bolgText">
+                            <p class="">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam sequi maxime corrupti molestias voluptatum labore, dolorum velit laboriosam totam ut! Lorem ipsum dolor sit amet.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="text-center skill-section py-5" id="skill">
+        <div class="container">
+            <div class="bolgHeader text-center py-5" data-aos="fade-right">
+                <h2 style="font-size: 2.7rem; color: #0ab1ff;">WE GOT SKILLS !
+                    <hr>
+                </h2>
+            </div>
+            <div class="row">
+                <div class="col-sm-3 col-md-3 col-lg-3" data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">
+                    <svg class="radial-progress web-design" data-percentage="90" viewBox="0 0 80 80">
+					<circle class="incomplete" cx="40" cy="40" r="35"></circle>
+					<circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+					<text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">90%</text>
+				</svg>
+                    <h2 style="color:#0afff3; font-size:2.4rem;">Web Design</h2>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3" data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">
+                    <svg class="radial-progress html-css" data-percentage="75" viewBox="0 0 80 80">
+					<circle class="incomplete" cx="40" cy="40" r="35"></circle>
+					<circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+					<text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">75%</text>
+				</svg>
+                    <h2 style="color:#0afff3; font-size:2.4rem;">Web Development</h2>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3" data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">
+                    <svg class="radial-progress graphic-design" data-percentage="70" viewBox="0 0 80 80">
+					<circle class="incomplete" cx="40" cy="40" r="35"></circle>
+					<circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+					<text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">70%</text>
+				</svg>
+                    <h2 style="color:#0afff3; font-size:2.4rem;">Graphic Design</h2>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3" data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">
+                    <svg class="radial-progress ui-ux" data-percentage="85" viewBox="0 0 80 80">
+					<circle class="incomplete" cx="40" cy="40" r="35"></circle>
+					<circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+					<text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">85%</text>
+				</svg>
+                    <h2 style="color:#0afff3; font-size:2.4rem;">ui / ux</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="experience" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="headerLeft py-5" data-aos="fade-right">
+                        <h1 style="font-size:2.7rem; color:#0ab1ff;">Education</h1>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="headerLeft py-5" data-aos="fade-right">
+                        <h1 style="font-size:2.7rem; color:#0ab1ff;">Work Experience</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-6  mt-5" data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">
+                    <div class="experienceContent">
+                        <h2>web & Development Frome <span>Arena Animation</span></h2>
+                        <span>2018-2021</span>
+                        <p class=""> It's a Long established fact a reader will be distrocted by the readable contert of page when looking at it's layout .
+                        </p>
+                        <a href="#">lone more</a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6  mt-5" data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">
+                    <div class="experienceContent">
+                        <h2> UI/UX Designer<span> Piya khan</span></h2>
+                        <span>2018-2021</span>
+                        <p>
+                            Responabitry
+                        </p>
+                        <p>
+                            <span>
+								<i style="font-size: 1.5rem;" class="fas fa-check"> <span>volidate CSS</span></i>
+                            </span>
+                        </p>
+                        <p>
+                            <span>
+								<i  style="font-size: 1.5rem;" class="fas fa-check"> <span>Project Manegmant</span></i>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-sm-6 col-md-6 col-lg-6  mt-5" data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">
+                    <div class="experienceContent">
+                        <h2>web & Development Frome <span>Arena Animation</span></h2>
+                        <span>2018-2021</span>
+                        <p class=""> It's a Long established fact a reader will be distrocted by the readable contert of page when looking at it's layout The point
+                        </p>
+                        <a href="#">lone more</a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6  mt-5" data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">
+                    <div class="experienceContent">
+                        <h2> UI/UX Designer<span> Piya khan</span></h2>
+                        <span>2018-2021</span>
+                        <p>
+                            Responabitry
+                        </p>
+                        <p>
+                            <span>
+									<i style="font-size: 1.5rem;" class="fas fa-check"> <span>volidate CSS</span></i>
+                            </span>
+                        </p>
+                        <p>
+                            <span>
+									<i  style="font-size: 1.5rem;" class="fas fa-check"> <span>Project Manegmant</span></i>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-sm-6 col-md-6 col-lg-6  mt-5" data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">
+                    <div class="experienceContent">
+                        <h2>web & Development Frome <span>Arena Animation</span></h2>
+                        <span>2018-2021</span>
+                        <p class=" "> It's a Long established fact a reader will be distrocted by the readable contert of page when looking at it's layout .The point .
+                        </p>
+                        <a href="#">lone more</a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6  mt-5" data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">
+                    <div class="experienceContent">
+                        <h2> UI/UX Designer<span> Piya khan</span></h2>
+                        <span>2018-2021</span>
+                        <p>
+                            Responabitry
+                        </p>
+                        <p>
+                            <span>
+										<i style="font-size: 1.5rem;" class="fas fa-check"> <span>volidate CSS</span></i>
+                            </span>
+                        </p>
+                        <p>
+                            <span>
+										<i  style="font-size: 1.5rem;" class="fas fa-check"> <span>Project Manegmant</span></i>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio" class="py-5">
+        <div class="container">
+            <div class="bolgHeader text-center py-5" data-aos="fade-right">
+                <h2 style="font-size: 2.7rem; color: #0ab1ff;">Recent Portfolio
+                    <hr>
+                </h2>
+            </div>
+            <div class="portfolioBtn" data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom">
+            <div id="portfolio-filter">
+                <button type="button" data-filter="all">All</button>
+                <button type="button" data-filter=".branding">Branding</button>
+                <button type="button" data-filter=".photography">Photography</button>
+            </div>
+            </div>
+            <div class="row mixitUp">
+                <div class="col-sm-4 col-md-4 col-lg-4  mt-5 mix photography" data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">
+                    <div class="portfolioOverly">
+                        <div class="portfolioImg">
+                            <img class="img-fluid" src="img/4-1.jpg" alt="portfolio 1">
+                        </div>
+                        <div class="portfolioHover">
+                            <span><i class="fas fa-search"></i></span>
+                            <h3>last Work</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, consequuntur?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4  mt-5 mix box photography1" data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">
+                    <div class="portfolioOverly">
+                        <div class="portfolioImg">
+                            <img class="img-fluid" src="img/10.jpg" alt="portfolio 2">
+                        </div>
+                        <div class="portfolioHover">
+                            <span><i class="fas fa-search"></i></span>
+                            <h3>last Work</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, consequuntur?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4  mt-5 mix box photography" data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom" >
+                    <div class="portfolioOverly">
+                        <div class="portfolioImg">
+                            <img class="img-fluid" src="img/11.jpg" alt="portfolio 3">
+                        </div>
+                        <div class="portfolioHover">
+                            <span><i class="fas fa-search"></i></span>
+                            <h3>last Work</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, consequuntur?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4  mt-5 mix box branding" data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">
+                    <div class="portfolioOverly">
+                        <div class="portfolioImg">
+                            <img class="img-fluid" src="img/b-1.png" alt="portfolio 4">
+                        </div>
+                        <div class="portfolioHover">
+                            <span><i class="fas fa-search"></i></span>
+                            <h3>last Work</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, consequuntur?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4  mt-5 mix box branding" data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">
+                    <div class="portfolioOverly">
+                        <div class="portfolioImg">
+                            <img class="img-fluid" src="img/g4.png" alt="portfolio 5">
+                        </div>
+                        <div class="portfolioHover">
+                            <span><i class="fas fa-search"></i></span>
+                            <h3>last Work</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, consequuntur?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4  mt-5 mix branding" data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">
+                    <div class="portfolioOverly">
+                        <div class="portfolioImg">
+                            <img class="img-fluid" src="img/g5.png" alt="portfolio 6">
+                        </div>
+                        <div class="portfolioHover">
+                            <span><i class="fas fa-search"></i></span>
+                            <h3>last Work</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, consequuntur?</p>
+                        </div>
+                    </div>
+                </div>
+            <!-- <div class="row">
+				<div class="col-sm-4 col-md-4 col-lg-4  mt-5" data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom">
+					<div class="portfolioOverly">
+						<div class="portfolioImg">
+							<img class="img-fluid" src="img/portfolio/g1.jpg" alt="portfolio 7">
+						</div>
+						<div class="portfolioHover">
+							<span><i class="fas fa-search"></i></span>
+							<h3>last Work</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, consequuntur?</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 col-md-4 col-lg-4  mt-5" data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom">
+					<div class="portfolioOverly">
+						<div class="portfolioImg">
+							<img class="img-fluid" src="img/portfolio/g3.png" alt="portfolio 8">
+						</div>
+						<div class="portfolioHover">
+							<span><i class="fas fa-search"></i></span>
+							<h3>last Work</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, consequuntur?</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 col-md-4 col-lg-4  mt-5" data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom">
+					<div class="portfolioOverly">
+						<div class="portfolioImg">
+							<img class="img-fluid" src="img/portfolio/g8.png" alt="portfolio 9">
+						</div>
+						<div class="portfolioHover">
+							<span><i class="fas fa-search"></i></span>
+							<h3>last Work</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, consequuntur?</p>
+						</div>
+					</div>
+				</div>
+			</div> -->
+        </div>
+        </div>
+    </section>
+    <section id="price" class="py-5">
+        <div class="container">
+            <div class="bolgHeader text-center py-5" data-aos="fade-right">
+                <h2 style="font-size: 2.7rem; color: #0ab1ff;">Pricing Table
+                    <hr>
+                </h2>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 col-md-4 col-lg-4 mt-5" data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">
+                    <div class="pricingContent">
+                        <div class="pricingText">
+                            <span><i class="fas fa-shopping-cart"></i></span>
+                            <h3>$ <span  style="font-size: 2rem; color: #f1f1f1;font-weight: bold;">1500</span></h3>
+                            <h4>Full Time Work</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Lorem ipsum dolor sit amet. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, beatae ab non illum, atque laborum error deleniti illo ex repudiandae.
+                            </p>
+                            <a href="#" class="btn btn-outline-info">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4 mt-5" data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">
+                    <div class="pricingContent">
+                        <div class="pricingText">
+                            <span><i class="fas fa-shopping-cart"></i></span>
+                            <h3>$ <span  style="font-size: 2rem; color: #f1f1f1;font-weight: bold;">1300</span></h3>
+                            <h4>Web Desing</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Lorem ipsum dolor sit amet. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, beatae ab non illum, atque laborum error deleniti illo ex repudiandae.
+                            </p>
+                            <a href="#" class="btn btn-outline-info">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4 mt-5" data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">
+                    <div class="pricingContent">
+                        <div class="pricingText">
+                            <span><i class="fas fa-shopping-cart"></i></span>
+                            <h3>$ <span  style="font-size: 2rem; color: #f1f1f1;font-weight: bold;">1100</span></h3>
+                            <h4>Graphic Design</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Lorem ipsum dolor sit amet. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, beatae ab non illum, atque laborum error deleniti illo ex repudiandae.
+                            </p>
+                            <a href="#" class="btn btn-outline-info">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4 mt-5" data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">
+                    <div class="pricingContent">
+                        <div class="pricingText">
+                            <span><i class="fas fa-shopping-cart"></i></span>
+                            <h3>$ <span  style="font-size: 2rem; color: #f1f1f1;font-weight: bold;">1000</span></h3>
+                            <h4>Web Development</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Lorem ipsum dolor sit amet. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, beatae ab non illum, atque laborum error deleniti illo ex repudiandae.
+                            </p>
+                            <a href="#" class="btn btn-outline-info">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4 mt-5" data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">
+                    <div class="pricingContent">
+                        <div class="pricingText">
+                            <span><i class="fas fa-shopping-cart"></i></span>
+                            <h3>$ <span  style="font-size: 2rem; color: #f1f1f1;font-weight: bold;">1000</span></h3>
+                            <h4>Online Marketing</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Lorem ipsum dolor sit amet. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, beatae ab non illum, atque laborum error deleniti illo ex repudiandae.
+                            </p>
+                            <a href="#" class="btn btn-outline-info">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4 mt-5" data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">
+                    <div class="pricingContent">
+                        <div class="pricingText">
+                            <span><i class="fas fa-shopping-cart"></i></span>
+                            <h3>$ <span  style="font-size: 2rem; color: #f1f1f1;font-weight: bold;">1000</span></h3>
+                            <h4>Security</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Lorem ipsum dolor sit amet. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, beatae ab non illum, atque laborum error deleniti illo ex repudiandae.
+                            </p>
+                            <a href="#" class="btn btn-outline-info">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="featuredPost" class="py-5">
+        <div class="container">
+            <div class="bolgHeader text-center py-5" data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom">
+                <h2 style="font-size: 2.7rem; color: #0ab1ff;">Featured Posts
+                    <hr>
+                </h2>
+            </div>
+            <div class="owl-carousel owl-theme wow fadeInUp" data-wow-delay="1s" data-aos="fade-right" style="cursor:grab;">
+                <div class="items">
+                    <div class="img-thum">
+                        <img class="img-fluid" src="img/b-1.png" alt="b-1">
+                    </div>
+                    <div class="text">
+                        <h4 style="margin-top: 2rem; color: #0ab1ff; font-size: 2rem;">Google Starts Crawl</h4>
+                    </div>
+                    <div class="documents mt-5">
+                        <h4> Post on<span style="color: #0994d4;"> : 24,11,2021</span></h4>
+                        <h4>By Admin <span style="color: #0994d4;">Rashid khan</span></h4>
+                        <p style="color: rgba(160, 158, 158, 0.822); margin-top: 2rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, possimus id dicta ex vel omnis alias sapiente itaque quo non.</p>
+                        <a style="font-size: 1.5rem; font-weight: bold;" href="#">Read more  </a>
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="img-thum">
+                        <img class="img-fluid" src="img/b-2.png" alt="b-2">
+                    </div>
+                    <div class="text">
+                        <h4 style="margin-top: 2rem; color: #0ab1ff; font-size: 2rem;">Promotion is much needed</h4>
+                    </div>
+                    <div class="documents mt-5">
+                        <h4> Post on<span style="color: #0994d4;"> : 24,11,2021</span></h4>
+                        <h4>By Admin <span style="color: #0994d4;">Rashid khan</span></h4>
+                        <p style="color: rgba(160, 158, 158, 0.822); margin-top: 2rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, possimus id dicta ex vel omnis alias sapiente itaque quo non.</p>
+                        <a style="font-size: 1.5rem; font-weight: bold;" href="#">Read more  </a>
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="img-thum">
+                        <img class="img-fluid" src="img/b-3.png" alt="b-3">
+                    </div>
+                    <div class="text">
+                        <h4 style="margin-top: 2rem; color: #0ab1ff; font-size: 2rem;">Promotion is much needed</h4>
+                    </div>
+                    <div class="documents mt-5">
+                        <h4> Post on<span style="color: #0994d4;"> : 24,11,2021</span></h4>
+                        <h4>By Admin <span style="color: #0994d4;">Rashid khan</span></h4>
+                        <p style="color: rgba(160, 158, 158, 0.822); margin-top: 2rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, possimus id dicta ex vel omnis alias sapiente itaque quo non.</p>
+                        <a style="font-size: 1.5rem; font-weight: bold;" href="#">Read more  </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="py-5">
+        <div class="container" data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom">
+            <div class="bolgHeader text-center py-4">
+                <h2 style="font-size: 2.7rem; color: #0ab1ff;">Contacts
+                    <hr>
+                </h2>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-6 py-5" id="contactCenter"  data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">
+                    <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-6 py-5">
+                        <div class="fastName">
+                            <label class="h2 text-info" for="name">Fast Name</label>
+                            <input type="text" placeholder="Name" class="form-control">
+                        </div> 
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-6 py-5"> 
+                        <div class="LastName"  >
+                        <label class="h2 text-info" for="name">Last Name</label>
+                        <input required type="text" placeholder="Name" class="form-control record">
+                        </div>
+                    </div>
+                </div>
+                <div class="email mb-4">
+                    <label  class="h2 text-info record" for="name" for="email">E-mail</label>
+                    <input required type="text" placeholder="E-mail" class="form-control">
+                </div>
+                <div class="textAera text-center">
+                    <textarea required name="comments" id="" cols="40" rows="3" placeholder="what's  your mind comments ?"></textarea>
+                </div>
+                <div class="submit mt-4">
+                    <a href="#" class="btn btn-outline-primary d-block" style="font-size: 1.8rem;" >Submit</a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-6 py-5 mt-5"  data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom">
+                <div class="contactImg">
+                    <img id="map" style="overflow: hidden;" src="img/map2.webp" alt="map" class="img-fulid  mt-5">
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <footer class="py-5" style="border-top: .1rem solid #333;">
+        <div class="container">
+            <div class="lastText text-center">
+                <h1>Desing By :<a href="#" class="text-info">Rashid khan</a></h1>
+                <h3>copyright &copy; 2021</h3>
+            </div>
+        </div>
+    </footer>
+    <script src="vendors/js/jQuery.js"></script>
+    <script src="vendors/js/bootstrap.min.js"></script>
+    <script src="vendors/js/popper.min.js"></script>
+    <script src="vendors/js/owl.carousel.min.js"></script>
+    <script src="vendors/js/typed.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="resources/js/min.js"></script>
+</body>
+</html>
